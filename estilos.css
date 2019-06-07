@@ -1,0 +1,16 @@
+*{  padding:0px;  /* se elimina el formato que el navegdor agrega por defecto--------- */
+	margin:0px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;       
+ }
+
+.conteiner
+{
+  width: 95%;
+  max-width:1000px;
+  margin:auto;
+  height:600px; 
+
+  background-color:orange;
+}
