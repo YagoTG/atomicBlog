@@ -7,10 +7,21 @@
 
 .conteiner
 {
+  position:relative;
   width: 95%;
   max-width:1000px;
   margin:auto;
   height:600px; 
 
-  background-color:orange;
+}
+
+.modulo_caja
+{
+  position:absolute;
+  width:500px;
+  height:500px;
+  background-color:red;
+
+  top:50px;
+  left:250px;     
 }
