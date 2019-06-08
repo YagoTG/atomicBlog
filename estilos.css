@@ -2,7 +2,9 @@
 	margin:0px;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
-    box-sizing:border-box;       
+    box-sizing:border-box;
+
+    background-color:gray;       
  }
 
 .conteiner
@@ -13,6 +15,7 @@
   margin:auto;
   height:600px; 
 
+background-color:#fff;
 }
 
 .modulo_caja
@@ -24,4 +27,44 @@
 
   top:50px;
   left:250px;     
+}
+
+.modulo_caja .modulo_uno
+{
+  position:absolute;
+  width:500px;
+  height:250px;
+  background-color:purple;
+
+}
+
+.modulo_caja .modulo_uno .mini_mod1
+{
+  position:absolute;
+  width:250px;
+  height:250px;
+  background-color:gray;
+}
+
+.modulo_caja .modulo_uno .mini_mod2
+{
+  position:absolute;
+  width:250px;
+  height:250px;
+  background-color:aqua;
+
+  left:250px;
+}
+
+.modulo_caja .modulo_uno .mini_mod2 .texto h2 
+{
+  position:absolute;
+  background-color:white;
+  width:160px;
+  height:30px;
+  top:100px;
+  left:45px; 
+  
+  
+
 }
