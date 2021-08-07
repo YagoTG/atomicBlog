@@ -41,16 +41,16 @@ background-color:#fff;
 .wrap .wrapper .mini_mod1
 {
   position:absolute;
-  width:250px;
-  height:250px;
+  width:100px;
+  height:100px;
   background-color:#55D425;
 }
 
 .wrap .wrapper .mini_mod2
 {
   position:absolute;
-  width:250px;
-  height:250px;
+  width:100px;
+  height:100px;
   background-color:aqua;
 
   left:250px;
@@ -60,11 +60,9 @@ background-color:#fff;
 {
   position:absolute;
   background-color:white;
-  width:160px;
-  height:30px;
+  width:60px;
+  height:60px;
   top:100px;
   left:45px; 
   
-  
-
 }
