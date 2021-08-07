@@ -1,0 +1,70 @@
+*{  padding:0px;  /* se elimina el formato que el navegdor agrega por defecto--------- */
+	margin:0px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+
+    background-color:gray;       
+ }
+
+.conteiner
+{
+  position:relative;
+  width: 95%;
+  max-width:1000px;
+  margin:auto;
+  height:600px; 
+
+background-color:#fff;
+}
+
+.wrap
+{
+  position:absolute;
+  width:500px;
+  height:500px;
+  background-color:red;
+
+  top:50px;
+  left:250px;     
+}
+
+.wrap .wrapper
+{
+  position:absolute;
+  width:500px;
+  height:250px;
+  background-color:purple;
+
+}
+
+.wrap .wrapper .mini_mod1
+{
+  position:absolute;
+  width:250px;
+  height:250px;
+  background-color:#55D425;
+}
+
+.wrap .wrapper .mini_mod2
+{
+  position:absolute;
+  width:250px;
+  height:250px;
+  background-color:aqua;
+
+  left:250px;
+}
+
+.wrap .wrapper .mini_mod2 .texto h2 
+{
+  position:absolute;
+  background-color:white;
+  width:160px;
+  height:30px;
+  top:100px;
+  left:45px; 
+  
+  
+
+}
